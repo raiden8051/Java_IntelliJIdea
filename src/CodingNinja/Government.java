@@ -1,3 +1,5 @@
+package CodingNinja;
+
 import com.sun.jmx.snmp.internal.SnmpSubSystem;
 
 import javax.sound.midi.SysexMessage;

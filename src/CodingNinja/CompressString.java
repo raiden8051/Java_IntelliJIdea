@@ -1,3 +1,5 @@
+package CodingNinja;
+
 import java.util.Scanner;
 
 public class CompressString {

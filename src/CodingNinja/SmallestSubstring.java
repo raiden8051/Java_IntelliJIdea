@@ -1,3 +1,5 @@
+package CodingNinja;
+
 public class SmallestSubstring {
     public static void main(String[] args) {
         String large = "Looks for minimum string";
@@ -8,7 +10,6 @@ public class SmallestSubstring {
             String sub2 = sub.replace(" ", "");
             if (sub2.contains(small))
                 System.out.println(sub);
-
         }
     }
 }
