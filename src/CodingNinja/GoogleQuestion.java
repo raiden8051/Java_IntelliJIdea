@@ -2,10 +2,13 @@ package CodingNinja;
 
 public class GoogleQuestion {
 
-    // [1,2,3,4] => [1,2,3,5]
-    // [1,9,9,9] => [2,0,0,0]
-    // [9,9,9,9] => [1,0,0,0,0] *Edge Case
-    public static int ctr = 0;
+    /*
+     [1,2,3,4] => [1,2,3,5]
+     [1,9,9,9] => [2,0,0,0]
+     [9,9,9,9] => [1,0,0,0,0] *Edge Case
+     Using Recursion
+     */
+    
     public static void main(String[] args) {
         int[] arr = new int[]{9,9,9,9,9,9,9,9,9};
 
