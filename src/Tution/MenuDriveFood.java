@@ -1,3 +1,5 @@
+package Tution;
+
 import java.util.Scanner;
 
 public class MenuDriveFood {
@@ -26,7 +28,7 @@ public class MenuDriveFood {
         System.out.println("Welcome to Chinese Food Court\nEnter Your Name : ");
         name = sc.nextLine();
 
-        System.out.println("1. Noodles         => (F)199.00, (H) 119.00 ");
+        System.out.println("1. Noodles         => (F)\u20B9 199.00, (H)\u20B9 119.00 ");
         System.out.println("2. Biryani         => 249.00");
         System.out.println("3. Pizza           => 155.00");
         System.out.println("4. Momo            => 99.00");

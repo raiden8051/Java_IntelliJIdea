@@ -1,4 +1,4 @@
-package CodingNinja;
+package Hackerrank;
 
 public class SmallestSubstring {
     public static void main(String[] args) {

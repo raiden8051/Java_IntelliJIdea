@@ -12,9 +12,9 @@ public class GoogleQuestion {
     public static void main(String[] args) {
         int[] arr = new int[]{9,9,9,9,9,9,9,9,9};
 
-        addOne(arr, 1, arr.length-1);
+        addOne(arr, (byte) 1, arr.length-1);
     }
-    public static void addOne(int[] arr, int carry, int index){
+    public static void addOne(int[] arr, byte carry, int index){
         if(index==-1){
             for(int n:arr)
                 System.out.print(n+" ");

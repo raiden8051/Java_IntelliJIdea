@@ -1,4 +1,4 @@
-package Ridhima;
+package Tution;
 
 import java.util.Scanner;
 
