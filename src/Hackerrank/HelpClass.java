@@ -4,28 +4,23 @@ package Hackerrank;
 
 import java.io.*;
 import java.util.*;
-class HelpClass
-{
-    public static void main(String args[])throws IOException
-    {
+class HelpClass {
+    public static void main(String args[]) throws IOException {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while(t-->0)
-        {
+        while (t-- > 0) {
             int n = sc.nextInt();
             int m = sc.nextInt();
             char a[][] = new char[n][m];
-            for (int i = 0; i < n; ++i)
-            {
+            for (int i = 0; i < n; ++i) {
                 String s = sc.next();
-                for (int j = 0; j < m; ++j)
-                {
+                for (int j = 0; j < m; ++j) {
                     a[i][j] = s.charAt(j);
 
                 }
             }
             Sol obj = new Sol();
-            System.out.println(obj.maxCities(a,n,m));
+            System.out.println(obj.maxCities(a, n, m));
         }
     }
 }// } Driver Code Ends
