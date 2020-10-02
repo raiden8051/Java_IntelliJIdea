@@ -7,8 +7,8 @@ public class Amazon_Triplet {
 
             Scanner sc = new Scanner(System.in);
             //int n = sc.nextInt();
-                int n;
-                n=sc.nextInt();
+            int n;
+            n=sc.nextInt();
 
             sc.nextLine();
 
