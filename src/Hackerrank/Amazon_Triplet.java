@@ -6,7 +6,9 @@ public class Amazon_Triplet {
         public static void main(String args[] ) throws Exception {
 
             Scanner sc = new Scanner(System.in);
-            int n = sc.nextInt();
+            //int n = sc.nextInt();
+                int n;
+                n=sc.nextInt();
 
             sc.nextLine();
 
