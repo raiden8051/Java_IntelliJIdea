@@ -45,7 +45,7 @@ class Binary{
     public Node insertNode(Node node, int value){
         if(node==null)
             return createNode(value);
-        else if(value<node.data)
+        else if(value<=node.data)
             node.left = insertNode(node.left,value);
         else if(value>node.data)
             node.right = insertNode(node.right,value);
@@ -67,9 +67,9 @@ class Binary{
     }
     public void inorder(Node root){
         if(root!=null){
-            inorder(root.right);
-            System.out.println(root.data);
             inorder(root.left);
+            System.out.println(root.data);
+            inorder(root.right);
         }
     }
 }

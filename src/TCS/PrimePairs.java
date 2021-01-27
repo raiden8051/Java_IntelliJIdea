@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class PrimePairs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int start = sc.nextInt();
-        int end = sc.nextInt();
+        int start = sc.nextInt();//4
+        int end = sc.nextInt();//30
         System.out.println(a(b(start,end)));
     }
     private static int a(ArrayList<Integer> li){
@@ -38,9 +38,9 @@ public class PrimePairs {
         {
             if(n%i==0)
                 ctr++;
-            if(ctr==2)
+            if(ctr>2)
                 break;
         }
-        return ctr==2?true:false;
+        return ctr==2;
     }
 }
